@@ -1,17 +1,27 @@
 .app {
-    background-image: url("assets/background image 2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+       
     font-family: var(--font-base);
 
-    @media screen and (max-width: 900px) {
-    background-size: fill;
-      
+    .background-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("assets/background image 2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+
+      @media screen and (max-width: 1300px) {
+        background-image: url("assets/background image mobile.jpg");
+        background-size: cover;
+        
+    }
   }
 
-  }
+}
   
 .copyright {
     color: var(--text-color);

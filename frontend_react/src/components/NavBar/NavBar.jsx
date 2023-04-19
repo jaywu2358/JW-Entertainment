@@ -37,8 +37,8 @@ const NavBar = ( {onLanguageChange} ) => {
         </ul>
 
         <button onClick={()=>handleLanguageChange('en')} id="english" class="lang-btn"><img src={images.usflag} alt="Flag Icon" class="flag-icon"/>EN</button>
-        <button onClick={()=>handleLanguageChange('cn')} id="spanish" class="lang-btn"><img src={images.cnflag} alt="Flag Icon" class="flag-icon"/>中文</button>
-        <button onClick={()=>handleLanguageChange('jp')} id="spanish" class="lang-btn"><img src={images.jpflag} alt="Flag Icon" class="flag-icon"/>日語</button>
+        <button onClick={()=>handleLanguageChange('cn')} id="chinese" class="lang-btn"><img src={images.cnflag} alt="Flag Icon" class="flag-icon"/>中文</button>
+        <button onClick={()=>handleLanguageChange('jp')} id="japanese" class="lang-btn"><img src={images.jpflag} alt="Flag Icon" class="flag-icon"/>日語</button>
 
         <div className="app__navbar-menu">
             <HiMenuAlt4 onClick={()=> setToggle(true)}/>

@@ -5,6 +5,7 @@ import './App.scss';
 const App = () => {
   return (
     <div className="app">
+      <div class="background-image"></div>
       <NavBar />
       <Header />
       <About />
